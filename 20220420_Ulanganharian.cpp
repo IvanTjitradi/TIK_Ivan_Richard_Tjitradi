@@ -19,6 +19,7 @@ int main (){
     if (tugas >100 ){
         cout<<"tidak boleh lebih dari 100"<<endl;
         cout<<"Program berhenti";
+        return 0;
     }
 
     cout<<"Masukkan Nilai uts = ";cin>>uts;
